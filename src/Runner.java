@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class Runner {
 	
 	public static void main(String[] args) throws FileNotFoundException {
-		Scanner in = new Scanner(new FileReader("dayfive.txt"));
-		Day day = new DayFivePartTwo();
+		Scanner in = new Scanner(new FileReader("daysix.txt"));
+		Day day = new DaySixPartTwo();
 		day.run(in);
 	}
 }
