@@ -6,7 +6,7 @@ public class Runner {
 	
 	public static void main(String[] args) throws FileNotFoundException {
 		Scanner in = new Scanner(new FileReader("input.txt"));
-		Day day = new DayFourteenPartTwo();
+		Day day = new DayFifteenPartTwo();
 		day.run(in);
 	}
 }
